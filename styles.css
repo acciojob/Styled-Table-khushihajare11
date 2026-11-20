@@ -1,1 +1,33 @@
 /* your code */
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border: 1px solid black;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #e6f2ff;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
